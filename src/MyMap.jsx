@@ -3,7 +3,7 @@ import { YMaps, Map, Placemark } from "react-yandex-maps";
 
 const MyMap = () => {
   const mapState = { center: [39.911989943186924, 69.00445228570554], zoom: 18 };
-  const placemarkGeometry = [39.911989943186924, 69.00445228570554]; // Координаты метки
+  const placemarkGeometry = [39.911989943186924, 69.00445228570554]; 
 
   const [isBalloonOpen, setIsBalloonOpen] = useState(false);
 
@@ -25,7 +25,7 @@ const MyMap = () => {
 
   return (
     <YMaps query={{ apikey: "YOUR_API_KEY" }}>
-      <Map state={mapState} width="100%" height="400px">
+      <Map state={mapState} width="100%" height="100vh">
         <Placemark
           geometry={placemarkGeometry}
           options={{ preset: "islands#blueCircleDotIcon" }}
