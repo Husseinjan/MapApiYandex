@@ -19,7 +19,7 @@ const MyMap = () => {
     <div>
       <h3>Заголовок</h3>
       <p>Дополнительная информация о метке.</p>
-      <img src="https://example.com/image.jpg" alt="Изображение" width="200" />
+      <img src="https://autoreview.ru/images/Article/1593/Article_159376_860_575.jpg" alt="Изображение" width="200" />
     </div>
   );
 
